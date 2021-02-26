@@ -1,10 +1,10 @@
-PWD /home/rnetonet/Workspace/latexcv/modern
+PWD /home/rnetonet/Workspace/latexcv
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/rnetonet/Workspace/latexcv/modern/main.tex
-OUTPUT /home/rnetonet/Workspace/latexcv/modern/main.log
+INPUT /home/rnetonet/Workspace/latexcv/main.tex
+OUTPUT /home/rnetonet/Workspace/latexcv/main.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
@@ -205,9 +205,9 @@ INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
-INPUT /home/rnetonet/Workspace/latexcv/modern/main.aux
-INPUT /home/rnetonet/Workspace/latexcv/modern/main.aux
-OUTPUT /home/rnetonet/Workspace/latexcv/modern/main.aux
+INPUT /home/rnetonet/Workspace/latexcv/main.aux
+INPUT /home/rnetonet/Workspace/latexcv/main.aux
+OUTPUT /home/rnetonet/Workspace/latexcv/main.aux
 INPUT /usr/share/texlive/texmf-dist/tex/latex/ly1/ly1ptm.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/ly1/ly1ptm.fd
 INPUT /usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -220,7 +220,7 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/impallari/raleway/Raleway-Regular-
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/impallari/raleway/Raleway-Regular-tlf-sc-t1.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/impallari/raleway/Raleway-Bold-tlf-t1.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/impallari/raleway/Raleway-Italic-tlf-t1.tfm
-OUTPUT /home/rnetonet/Workspace/latexcv/modern/main.pdf
+OUTPUT /home/rnetonet/Workspace/latexcv/main.pdf
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/impallari/raleway/Raleway-Regular-tlf-sc-t1.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/impallari/raleway/Raleway-Regular-tlf-sc-t1--base.tfm
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
@@ -230,7 +230,7 @@ INPUT /usr/share/texlive/texmf-dist/fonts/vf/impallari/raleway/Raleway-Bold-tlf-
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/impallari/raleway/Raleway-Bold-tlf-t1--base.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/impallari/raleway/Raleway-Italic-tlf-t1.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/impallari/raleway/Raleway-Italic-tlf-t1--base.tfm
-INPUT /home/rnetonet/Workspace/latexcv/modern/main.aux
+INPUT /home/rnetonet/Workspace/latexcv/main.aux
 INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/raleway/a_bzmckq.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/raleway/a_yqxcf3.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/impallari/raleway/Raleway-Bold.pfb

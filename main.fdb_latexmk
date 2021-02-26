@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1614315921 "/home/rnetonet/Workspace/latexcv/modern/main.tex" "/home/rnetonet/Workspace/latexcv/modern/main.pdf" "main" 1614315922
+["pdflatex"] 1614335803 "/home/rnetonet/Workspace/latexcv/main.tex" "/home/rnetonet/Workspace/latexcv/main.pdf" "main" 1614339876
   "/etc/texmf/web2c/texmf.cnf" 1613006535 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/rnetonet/Workspace/latexcv/modern/main.aux" 1614315922 8 a94a2480d3289e625eea47cd1b285758 ""
-  "/home/rnetonet/Workspace/latexcv/modern/main.tex" 1614315921 14952 05ad3269194172af6c9bd6cf5f430e88 ""
+  "/home/rnetonet/Workspace/latexcv/main.aux" 1614335804 8 a94a2480d3289e625eea47cd1b285758 ""
+  "/home/rnetonet/Workspace/latexcv/main.tex" 1614335803 14965 0d43915e25cfd71db4785bb561b228d1 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/raleway/a_bzmckq.enc" 1407086865 2956 e1fccf4917ff205596489dab079ad56f ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/raleway/a_yqxcf3.enc" 1407086865 3099 96ea04418bfcf989c5380b59031fa39d ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -149,11 +149,11 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1581979058 38841 ce3692aa899bb693b90b87eaa5d4d84e ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1614114039 4838291 31c1fa00649ecbabd36821690a1f9ad6 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1613006661 8259558 1f560532bfde4b1cead85de412a5d906 ""
-  "main.aux" 1614315922 8 a94a2480d3289e625eea47cd1b285758 "pdflatex"
-  "main.tex" 1614315921 14952 05ad3269194172af6c9bd6cf5f430e88 ""
+  "main.aux" 1614335804 8 a94a2480d3289e625eea47cd1b285758 "pdflatex"
+  "main.tex" 1614335803 14965 0d43915e25cfd71db4785bb561b228d1 ""
   (generated)
-  "/home/rnetonet/Workspace/latexcv/modern/main.log"
-  "/home/rnetonet/Workspace/latexcv/modern/main.pdf"
-  "main.log"
-  "main.pdf"
+  "/home/rnetonet/Workspace/latexcv/main.log"
+  "/home/rnetonet/Workspace/latexcv/main.pdf"
   "main.aux"
+  "main.pdf"
+  "main.log"
