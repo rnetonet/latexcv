@@ -92,9 +92,9 @@
 
 
 %customize entries left, center and right
-\lhead{}
-\chead{ \small{Jan Küster  $\cdot$ Consultant and Software Engineer $\cdot$  Bremen, Germany  $\cdot$  \textcolor{sectcol}{\textbf{info@jankuester.com}}  $\cdot$ +49 176 *** *** **}}
-\rhead{}
+% \lhead{}
+% \chead{ \small{Ruivaldo Neto $\cdot$ Engenheiro de Software $\cdot$ \textcolor{sectcol}{\textbf{rneto@rneto.net}}  $\cdot$ 71 99971 3750} }
+% \rhead{}
 
 
 %indentation is zero
@@ -212,8 +212,9 @@
 %
 \newcommand{\cvsection}[1]
 {
+\vspace{0.5cm}
 \colorbox{sectcol}{\mystrut \makebox[1\linewidth][l]{
-\larrow{bgcol} \hspace{-8pt} \larrow{bgcol} \hspace{-8pt} \larrow{bgcol} \textcolor{white}{\textbf{#1}}\hspace{4pt}
+ \textcolor{white}{\textbf{#1}}\hspace{4pt}
 }}\\
 }
 
@@ -249,7 +250,7 @@
 \vspace{-12pt}
 \textcolor{softcol}{\hrule}
 \vspace{6pt}
-	\begin{tabular*}{1\textwidth}{p{2.3cm} p{14.4cm}}
+	\begin{tabular*}{1\textwidth}{p{0.01cm} p{18cm}}
 &		 \larrow{bgcol}  #4\\[3pt]
 &		 \larrow{bgcol}  #5\\[6pt]
 	\end{tabular*}
@@ -303,18 +304,18 @@
 %}}
 
 % use this for single words, e.g. CV or RESUME etc.
-\hspace{-0.25\linewidth}\colorbox{bgcol}{\makebox[1.5\linewidth][c]{\HUGE{\textcolor{white}{\textsc{Jan Küster}} } \textcolor{sectcol}{\rule[-1mm]{1mm}{0.9cm}} \HUGE{\textcolor{white}{\textsc{Resume}} } }}
+\hspace{-0.25\linewidth}\colorbox{bgcol}{\makebox[1.5\linewidth][c]{\HUGE{\textcolor{white}{\textsc{Ruivaldo Neto}} } }}
 
 
 %----------------------------------------------------------------------------------------
 %	HEADER IMAGE
 %----------------------------------------------------------------------------------------
 
-\begin{figure}[H]
-\begin{flushright}
-	\includegraphics[trim= 320 130 460 210,clip,width=0.2\linewidth]{myfoto.jpg}	%trimming relative to image size!
-\end{flushright}
-\end{figure}
+% \begin{figure}[H]
+% \begin{flushright}
+% 	\includegraphics[trim= 320 130 460 210,clip,width=0.2\linewidth]{avatar.png}	%trimming relative to image size!
+% \end{flushright}
+% \end{figure}
 
 %---------------------------------------------------------------------------------------
 %	QR CODE (optional)
@@ -329,21 +330,21 @@
 %	META SECTION
 %----------------------------------------------------------------------------------------
 
-\vspace{-114pt}
+\vspace{1pt}
 
-\metasection{Status:}{M.Sc. Digital Media, Fullstack JS Engineer}
-\metasection{Fields:}{Project Management, Software Development, Consulting} 
-\metasection{Tech:}{Meteor, Javascript, Bootstrap, Mongodb, Git, Webstorm, Sourcetree}
-\metasection{Loves:}{Global Game Jam, Sci-Fi series, Stackoverflow, Fitness and Martial Arts}
+\begin{center}
+Engenheiro de Software $\cdot$ \textcolor{sectcol}{\textbf{rneto@rneto.net}}  $\cdot$ 71 99971 3750
+\end{center}
 
-\vspace{6pt}
+\vspace{1pt}
 
 %---------------------------------------------------------------------------------------
 %	SUMMARAY (optional)
 %----------------------------------------------------------------------------------------
 
-%\cvsection{Summary}\\
-%I am a digital media graduate (M.Sc.) with project experience in educational research as well as in the private sector. During my studies I focused on e-assessment software and moved over to b2b software for IBM Notes Domino.
+% \cvsection{Sobre}\\
+% Engenheiro de software pragmático. Acredito que a tecnologia é meio para agregar valor ao negócio e facilitar o trabalho dos usuários. 
+% \vspace{10pt}
 
 %Currently I develop and evaluate the next generation learning management system with Meteor based on an extensive nursing curriculum for healthcare education.  I also love fitness, martial arts, videogames, news and Sci-Fi series.\\[-2pt]
 
@@ -356,55 +357,55 @@
 %---------------------------------------------------------------------------------------
 %	EXPERIENCE
 %----------------------------------------------------------------------------------------
-\cvsection{Experience}
+\cvsection{Experiência}
+
+\cvevent{2017 - Atual}{Analista de Tecnologia da Informação}{IFBaiano}{Implantação, customização e manutenção do SUAP - (Python, PostgreSQL)}{Manutenção do SIGAA - (Java, PostgreSQL) e desenvolvimento do módulo de migração para o SUAP}
+
+
+\cvevent{2013 - 2017}{Analista Pleno}{CAIXA}{Desenvolvimento de sistemas internos: seguros, habitação e administrativo. - (C\#, SQL Server)}{Desenvolvimento de rotinas para automatização e integração dos dados (BI) - (SQL Server)}
 
 %
-\cvevent{2016 / 09}{Fullstack Javascript Engineer}{University of Bremen}{Invent a realtime classroom management using Meteor and React}{Design software architecture and leading development}
+\cvevent{2011 - 2013}{Coordenador de Desenvolvimento}{SECTI/GOV.BA}{Desenvolvimento dos sistemas: administrativo, protocolo e contratos - (PHP, PostgreSQL)}{Desenvolvimento de sistema para gestão negocial dos infocentros - (PHP, PostgreSQL)}
 
-%\textcolor{softcol}{\hrule}
+\cvevent{2010 - 2011}{Engenheiro de Software}{3Consult}{Desenvolvimento de sistema para bilhetagem e controle de impressão - (Ruby on Rails, Python)}{Desenvolvimento de sistema para gestão simplificada de proxys SQUID - (Python, PostgreSQL)}
 
-%
-\cvevent{2014 - 2016}{IT Consultant for IBM XPages and Notes Domino}{We4IT GmbH Bremen}{Realize projects in XPages and We4IT Aveedo, monitor project status, conduct reports}{Integrated Camunda BPMN engine and BPMN.IO modeler in We4IT Aveedo}
-
-
-%\textcolor{softcol}{\hrule}
-
-%
-\cvevent{2012 - 2014}{Scientific Employee / Software Development}{University of Bremen}{Invented a flexible assessment framework, targeting industrial trainees}{Supervised software development lifecycle, Recruited team members}
-
-%\textcolor{softcol}{\hrule}
-
-%
-\cvevent{2011 / 11}{Project Management Simulation Training}{Getoq Consulting}{Performed a two-day project simulation from management perspective}{Topics included customer contracts, change management, controlling, operational tasks}
-
-%\textcolor{softcol}{\hrule}
-
-
-%
-\cvevent{2010 - 2011}{Student Assistant / Programmer}{otulea.uni-bremen.de}{Realized an online diagnosis platform for workforce literacy development (Flex)}{Modeled software design, implemented various prototypes, conducted usability tests}
-
+\cvevent{2009 - 2010}{Programador}{SECTI/GOV.BA}{Desenvolvimento de ferramentas de suporte para distribuição Debian customizada \textit{Berimbau Linux} - (Python)}{Desenvolvimento de sistema de monitoramento para os infocentros - (PHP e MySQL)}
 
 %---------------------------------------------------------------------------------------
 %	EDUCATION SECTION
 %--------------------------------------------------------------------------------------
-\cvsection{Education}
+\cvsection{Formação}
 
-\cvevent{2015 / 07}{Graduated as M.Sc. Digital Media}{University of Bremen}{Master Thesis: Semi Automated Scoring in Technology Based Assessment}{Developed and evaluated an algorithm for semi automated scoring of spreadsheet data}
+%
+\cvevent{2018 - 2020}{Mestrado em Ciência da Computação}{UFBA}{Desenvolvimento de método para detectar perda de acurácia em algoritmos de Aprendizado de Máquina}{Técnica desenvolvida foi aplicada no rastreamento ocular de macacos em experimentos de neurociência}
 
 %\textcolor{softcol}{\hrule}
 
 %
-\cvevent{2012 - 2013}{Master Project - PrIMA}{University of Bremen}{Co-Invented a touch table application for medical support, co-developed software (Java) }{Formed a scrum team, mainted project dev server (Debian), surveyed target audience}
+\cvevent{2014 - 2016}{Especialização em Sistemas Distribuídos e Computação Ubíqua}{IFBA}{Desenvolvimento de aplicação sensível à localização para distribuição de conteúdo multimídia}{Aplicação dos conceitos de sistemas distribuídos (aplicação web) e ubíqua (mobile)}
 
 %\textcolor{softcol}{\hrule}
 
 %
-\cvevent{2012 - 2015}{Master Studies Digital Media}{University of Bremen}{Inter-cultural classes in English, covering special topics in computer science and design}{Professionalized in research methods, software development and e-assessment}
+\cvevent{2009 - 2013}{Graduação em Análise e Desenvolvimento de Sistemas}{IFBA}{Desenvolvimento de editor LaTeX para Web (IFBATeX) como trabalho de conclusão}{Premiado como melhor trabalho no workshop de ferramentas do WebMedia 2013}
 
-%\textcolor{softcol}{\hrule}
+\cvsection{Habilidades}
 
-%
-\cvevent{2009 - 2010}{Semester Abroad}{University of Melbourne}{Mastered six months of study and trans-cultural experience in Melbourne, Australia}{Finished machine programming, information visualization, professional essay writing}
+\metasection{Linguagens}{HTML, CSS, Javascript, Python, PHP, C\#, Java}
+\metasection{Frameworks}{Django, Laravel, Struts, Hibernate}
+\metasection{Bancos}{PostgreSQL, SQL Server, MySQL}
+\metasection{Práticas}{Agile, SCRUM, TDD, Devops}
+\metasection{Ferramentas}{Git, Pentaho}
+
+\newpage
+
+\cvsection{Idiomas}
+
+\metasection{Português}{Fluente/Nativo}
+\metasection{Inglês}{Avançado}
+\metasection{Espanhol}{Básico}
+
+
 
 
 %-------------------------------------------------------------------------------------------------
@@ -412,10 +413,6 @@
 %--------------------------------------------------------------------------------------------------
 
 \null
-\vspace*{\fill}
-\hspace{-0.25\linewidth}\colorbox{bgcol}{\makebox[1.5\linewidth][c]{\mystrut \small \textcolor{white}{www.jankuester.com} $\cdot$ \textcolor{white}{github.com/jankapunkt}}}
-
-
 
 
 %============================================================================%
